@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.grumpystreams" name="Grumpy Streams" version="0.0.1" provider-name="Grumpy">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">My First add-on</summary>
+		<description lang="en">Well see what it turn into.</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre></genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="repository.grumpybuilds" name="Grumpy Builds Repository" version="1.2" provider-name="Grumpy">
+	<extension point="xbmc.addon.repository" name="Grumpy Builds Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/grumpybuilds/repository.grumpybuilds/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/grumpybuilds/repository.grumpybuilds/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/grumpybuilds/repository.grumpybuilds/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Grumpy Builds Wizard</summary>
+		<description lang="en">Repository for The Grumpy Builds Wizard, and other developers 3rd party add-ons.</description>
+		<disclaimer>[COLOR red][B]Disclaimer:[/B][/COLOR] Grumpy Builds did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
+	</extension>
+</addon>
+</addons>
