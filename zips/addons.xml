@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.grumpybuildswizard" name="Grumpy Builds Wizard" version="4.3.3" provider-name="Grumpy">
+<addon id="plugin.program.grumpybuildswizard" name="Grumpy Builds Wizard" version="4.3.4" provider-name="Grumpy">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -11,7 +11,7 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">The Grumpy Builds Wizard allows you to get access to the latest Grumpy's Custom Builds.</summary>
     <description lang="en"></description>
-    <disclaimer>[COLOR red][B]Disclaimer:[/B][/COLOR] Grumpy Builds did not make all the add-ons in these builds and is not responsible for their content.</disclaimer>
+    <disclaimer>[COLOR red]Disclaimer:[/COLOR] Grumpy Builds did not make the add-ons in these builds and is not responsible for their content.</disclaimer>
 	<platform>all</platform>
   </extension>
 </addon>
