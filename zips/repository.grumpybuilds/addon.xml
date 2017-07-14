@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.grumpybuilds" name="Grumpy Builds Repository" version="1.5" provider-name="Grumpy">
+<addon id="repository.grumpybuilds" name="Grumpy Builds Repository" version="1.6" provider-name="Grumpy">
 	<extension point="xbmc.addon.repository" name="Grumpy Builds Repository">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
-		</dir>
 		<info compressed="false">https://raw.githubusercontent.com/grumpybuilds/repository.grumpybuilds/master/zips/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/grumpybuilds/repository.grumpybuilds/master/zips/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/grumpybuilds/repository.grumpybuilds/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Grumpy Builds Wizard</summary>
-		<description lang="en">Repository for The Grumpy Builds Wizard, and other developers 3rd party add-ons.</description>
+		<description lang="en">Repository for The Grumpy Builds Wizard.</description>
 		<disclaimer>[COLOR red][B]Disclaimer:[/B][/COLOR] Grumpy Builds did not make the add-ons in these builds and is not responsible for their content.</disclaimer>
 	</extension>
 </addon>
